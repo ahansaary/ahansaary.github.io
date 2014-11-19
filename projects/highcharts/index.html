@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>High Charts</title>
+
+		<style>
+		* { margin: 0;
+			padding: 0; }
+		</style>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="http://code.highcharts.com/stock/highstock.js"></script>
+		<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	</head>
+	<body>
+		<div id="container" style="width:100vw; height:100vh;"></div>
+
+		<script>
+		$(function () {
+			$.getJSON('data.php', function(data) {
+				var s1 = $.map(data.s1, function(e) { return parseInt(e); }),
+					s2 = $.map(data.s2, function(e) { return parseInt(e); }),
+					s3 = $.map(data.s3, function(e) { return parseInt(e); });
+
+				Highcharts.setOptions({});
+				$('#container').highcharts('StockChart', {
+					title: {
+						text: 'Lorem ipsum.',
+						style: {
+							'color': '#4545F5'
+						}
+					},
+					subtitle: {
+						text: 'Lorem ipsum dolor sit amet.'
+					},
+					chart: {
+						type: 'spline',
+						//zoomType: 'x'
+					},
+					tooltip: {
+						shared: true,
+						crosshairs: true
+					},
+					xAxis: {
+						type: 'datetime',
+						title: {
+							text: 'Time'
+						}
+					},
+					yAxis: {
+						title: {
+							text: 'Values'
+						}
+					},
+					navigator: {
+						enabled: true
+					},
+					rangeSelector: {
+						enabled: true,
+						allButtonsEnabled: true,
+						buttons: [
+							{
+								type: 'minute',
+								count: 60,
+								text: '1h'
+							},
+							{
+								type: 'minute',
+								count: 60*3,
+								text: '3h'
+							},
+							{
+								type: 'minute',
+								count: 60*6,
+								text: '6h'
+							},
+							{
+								type: 'minute',
+								count: 60*12,
+								text: '12h'
+							},
+							{
+								type: 'day',
+								count: 1,
+								text: 'day'
+							},
+							{
+								type: 'all',
+								text: 'all'
+							}
+						],
+						selected: 3
+					},
+					series: [{
+						data: s1
+					},
+					{
+						data: s2
+					},
+					{
+						data: s3
+					}],
+					plotOptions: {
+						spline: {
+							pointStart: Date.now(),
+							pointInterval: 1000 * 60 * 15
+						},
+						series: {
+							marker: {
+								enabled: false
+							}
+						}
+					}
+				});
+			});
+		});
+		</script>
+	</body>
+</html>
