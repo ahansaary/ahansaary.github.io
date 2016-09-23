@@ -42,9 +42,10 @@ header {
   background: #ffffff; }
   header h1 {
     font-size: 2.2rem;
-    color: #363558; }
+    color: #363558;
+    white-space: nowrap; }
   header h3 {
-    margin-top: -150px;
+    margin-top: -130px;
     font-size: 2rem;
     color: rgba(84, 65, 115, 0.8);
     font-style: italic; }
@@ -53,7 +54,9 @@ header {
       height: 200px;
       line-height: 200px; }
       header h1 {
-        font-size: 3rem; } }
+        font-size: 3rem; }
+      header h3 {
+        margin-top: -150px; } }
 
 /* -------------------------------- 
 
@@ -559,7 +562,10 @@ table {
     border-left: 1px solid #363558; }
   table th {
     font-weight: bold;
-    white-space: nowrap; }
+    white-space: normal; }
+  @media only screen and (min-width: 600px) {
+    table th {
+      white-space: nowrap; } }
 
 p img {
   width: 100%;
