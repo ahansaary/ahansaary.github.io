@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7acbd5d7-463a-45fa-9a9e-5fc117841007" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academic-qualifications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graduation-project.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personal-information.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personal-skills.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personal-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/technical-skills.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/work-experience.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/3188d4c5d048ffa6f6619fd7f5e961762200e03b/_all.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/3188d4c5d048ffa6f6619fd7f5e961762200e03b/_all.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/3188d4c5d048ffa6f6619fd7f5e961762200e03b/_normalize.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/3188d4c5d048ffa6f6619fd7f5e961762200e03b/_normalize.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/3188d4c5d048ffa6f6619fd7f5e961762200e03b/_typography.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/3188d4c5d048ffa6f6619fd7f5e961762200e03b/_typography.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_all.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_all.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_functions.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_functions.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_mixins.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_mixins.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_variables.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/5ed7a7edc455add85090d5e3ead2fc890475de5b/_variables.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/93f0e53a49be509cb7616764ea6f7ebe49182748/_normalize.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/93f0e53a49be509cb7616764ea6f7ebe49182748/_normalize.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/93f0e53a49be509cb7616764ea6f7ebe49182748/main.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/93f0e53a49be509cb7616764ea6f7ebe49182748/main.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/978ae9ac6cebaf795966391a0d46e2ba32178361/_all.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/978ae9ac6cebaf795966391a0d46e2ba32178361/_all.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.sass-cache/978ae9ac6cebaf795966391a0d46e2ba32178361/_info.sassc" afterPath="$PROJECT_DIR$/old/.sass-cache/978ae9ac6cebaf795966391a0d46e2ba32178361/_info.sassc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/old/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/old/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/old/css/main.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/me.jpg" afterPath="$PROJECT_DIR$/old/img/me.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/old/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/old/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/highcharts/data.php" afterPath="$PROJECT_DIR$/old/projects/highcharts/data.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/highcharts/data.txt" afterPath="$PROJECT_DIR$/old/projects/highcharts/data.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/highcharts/exporting.js" afterPath="$PROJECT_DIR$/old/projects/highcharts/exporting.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/highcharts/highstock.js" afterPath="$PROJECT_DIR$/old/projects/highcharts/highstock.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/highcharts/index.html" afterPath="$PROJECT_DIR$/old/projects/highcharts/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/highcharts/jquery.min.js" afterPath="$PROJECT_DIR$/old/projects/highcharts/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/main.sass" afterPath="$PROJECT_DIR$/old/styles/main.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ahansaary.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
+            <state relative-caret-position="72">
+              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -117,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-information.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personal-information.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal-information.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+            <state relative-caret-position="270">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -312,12 +278,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474582309487</updated>
-      <workItem from="1474582312481" duration="24675000" />
+      <workItem from="1474582312481" duration="25144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24675000" />
+    <option name="totallyTimeSpent" value="25144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -447,14 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="93" column="30" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -513,8 +471,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal-information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+        <state relative-caret-position="270">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
           <folding />
         </state>
       </provider>
