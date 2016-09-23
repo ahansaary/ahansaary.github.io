@@ -1,0 +1,24 @@
+// colors
+
+$color-1: #363558; // Martinique
+$color-2: #544173; // Mulled Wine
+$color-3: #dadcdc; // Iron
+$color-4: #65d29b; // Emerald
+$color-5: #1c1726; // Bastille
+$color-6: #ffffff; // White
+$color-7: #795548; // Brown
+$color-8: #FF5722; // Deep Orange
+$color-9: #607D8B; // Blue Grey
+$color-10:#00838F; // Cyan 800
+$color-11:#E91E63; // Pink
+$color-12:#9C27B0; // Purple
+
+// fonts 
+
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Raleway', sans-serif;
+
+// animation duration
+
+$fold-animation: .5s;
+$fold-content-animation: .2s*(3+1)/2; // replace 3 with number of elements that you want to animate
