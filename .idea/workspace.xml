@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7acbd5d7-463a-45fa-9a9e-5fc117841007" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7cc143606bf1e2d200b25bcc23e752be44d08989/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/7cc143606bf1e2d200b25bcc23e752be44d08989/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/8cc994e746f0d317ebf38a99b61469fb508007ca/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/8cc994e746f0d317ebf38a99b61469fb508007ca/_variables.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_variables.scss" afterPath="$PROJECT_DIR$/scss/partials/_variables.scss" />
     </list>
     <ignored path="ahansaary.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="594" column="26" selection-start-line="594" selection-start-column="26" selection-end-line="594" selection-end-column="26" />
+            <state relative-caret-position="-151">
+              <caret line="598" column="12" selection-start-line="598" selection-start-column="12" selection-end-line="598" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/partials/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -107,25 +116,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="academic-qualifications.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/academic-qualifications.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="565" column="14" selection-start-line="565" selection-start-column="14" selection-end-line="565" selection-end-column="14" />
               <folding>
-                <marker date="1474632522986" expanded="true" signature="737:781" ph="{...}" />
-                <marker date="1474632522986" expanded="true" signature="19115:19121" ph="{...}" />
-                <marker date="1474632522986" expanded="true" signature="19253:19256" ph="{...}" />
+                <marker date="1474632932277" expanded="true" signature="737:781" ph="{...}" />
+                <marker date="1474632932277" expanded="true" signature="19115:19121" ph="{...}" />
+                <marker date="1474632932277" expanded="true" signature="19253:19256" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -143,7 +142,6 @@
         <option value="$PROJECT_DIR$/item-3.html" />
         <option value="$PROJECT_DIR$/item-4.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/scss/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/programming-languages.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/technical-skills.html" />
@@ -156,6 +154,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/scss/partials/_variables.scss" />
       </list>
     </option>
   </component>
@@ -227,6 +226,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ahansaary.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ahansaary.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,23 +337,23 @@
       <option name="presentableId" value="Default" />
       <updated>1474582309487</updated>
       <workItem from="1474582312481" duration="25791000" />
-      <workItem from="1474629824521" duration="2700000" />
+      <workItem from="1474629824521" duration="3128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28491000" />
+    <option name="totallyTimeSpent" value="28919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work-experience.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -563,9 +572,9 @@
         <state relative-caret-position="270">
           <caret line="565" column="14" selection-start-line="565" selection-start-column="14" selection-end-line="565" selection-end-column="14" />
           <folding>
-            <marker date="1474632522986" expanded="true" signature="737:781" ph="{...}" />
-            <marker date="1474632522986" expanded="true" signature="19115:19121" ph="{...}" />
-            <marker date="1474632522986" expanded="true" signature="19253:19256" ph="{...}" />
+            <marker date="1474632932277" expanded="true" signature="737:781" ph="{...}" />
+            <marker date="1474632932277" expanded="true" signature="19115:19121" ph="{...}" />
+            <marker date="1474632932277" expanded="true" signature="19253:19256" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -580,8 +589,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="594" column="26" selection-start-line="594" selection-start-column="26" selection-end-line="594" selection-end-column="26" />
+        <state relative-caret-position="-151">
+          <caret line="598" column="12" selection-start-line="598" selection-start-column="12" selection-end-line="598" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
