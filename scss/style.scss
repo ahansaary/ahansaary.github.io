@@ -596,6 +596,10 @@ table {
 		white-space: normal;
 	}
 
+	tr:hover {
+		background-color: #eee;
+	}
+
 	@include MQ(M) {
 		th {
 			white-space: nowrap;
