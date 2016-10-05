@@ -130,8 +130,10 @@
                 btnDonate20.href = 'sms:2222&body=test2';
                 break;
               default:
-                btnDonate10.target = '';
-                btnDonate20.target = '';
+                btnDonate10.innerText = 'Send SMS to 2169';
+                btnDonate20.innerText = 'Send SMS to 2222';
+                btnDonate10.href = 'sms:2169&body=test3';
+                btnDonate20.href = 'sms:2222&body=test3';
                 break;
             }
 
