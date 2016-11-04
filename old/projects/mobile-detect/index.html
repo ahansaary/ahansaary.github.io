@@ -53,6 +53,17 @@
             background-color: #000;
             color: #fff;
           }
+          div.shareButtons {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+          }
+          div.shareButtons .btn {
+            border-radius: 0;
+          }
+          .container {
+            padding-bottom: 34px;
+          }
         </style>
     </head>
     <body>
@@ -60,6 +71,12 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <div class="text-center">
+          <img
+           width="200px"
+           src="https://openclipart.org/image/2400px/svg_to_png/232062/Logo-Logo-Grayscale.png">
+           <hr>
+        </div>
         <div class="container">
            <div class="row">
              <div class="col-sm-4 col-sm-offset-4 text-center">
@@ -75,27 +92,29 @@
            </div>
            <div class="row">
              <div class="col-sm-6 col-sm-offset-3 text-center">
-               <a id="btnDonate10" target="_blank" class="btn btn-default btn-block" href="#" role="button">Donate 10 AED</a>
-               <a id="btnDonate20" target="_blank" class="btn btn-default btn-block" href="#" role="button">Donate 20 AED</a>
+               <h2>Lorem ipsum dolor sit amet.</h2>
+               <p class="text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse rem a fugiat earum tempore dolor dicta aliquid, pariatur id quod tenetur suscipit mollitia iure delectus, harum cum. Porro consectetur tempora quas voluptas deserunt, libero qui excepturi eveniet accusantium possimus vero dolor fugiat officia ipsam atque quaerat quam beatae reiciendis exercitationem! Iusto corrupti deleniti ipsum nulla mollitia atque! Perferendis et, quam ad aperiam, iusto sunt officiis ab expedita quisquam dolorum adipisci modi debitis incidunt. Voluptas animi perferendis quaerat, repudiandae commodi ipsa minus eius est ipsum eveniet tempore blanditiis delectus totam vero, numquam, itaque. Suscipit cum dolorum perferendis voluptatum ipsa modi repellat, tempora laboriosam libero, mollitia aliquid, illum ab dolorem facilis excepturi molestiae aliquam quis. Delectus, saepe autem voluptas quaerat consectetur. Aperiam, praesentium nam sit ut, est tenetur vel at omnis enim fugiat rem, molestiae reiciendis quae pariatur. In recusandae, nemo ipsum, dolorum adipisci tenetur odit veritatis, incidunt molestiae atque sunt itaque illum sit eius dolorem debitis facilis quas temporibus deleniti quae iure sint autem! Placeat corrupti vitae totam adipisci dolores corporis, temporibus, dignissimos perspiciatis error id, consectetur, itaque. Hic architecto maxime, repellat debitis quam repudiandae veritatis nihil molestiae, porro sed nam, dolorem at, quibusdam culpa. Ullam cupiditate, deserunt nam animi est.
+               </p>
              </div>
            </div>
            <div class="row">
              <div class="col-sm-6 col-sm-offset-3 text-center">
-               <div class="btn-group btn-group-justified" role="group">
-                 <a class="btn facebookBtn" href="https://www.facebook.com/sharer/sharer.php?u=http://appgain.io" role="button"><i class="fa fa-facebook"></i></a>
-                 <a class="btn twitterBtn" href="https://twitter.com/home?status=http://appgain.io" role="button"><i class="fa fa-twitter"></i></a>
-                 <a class="btn emailBtn" href="mailto:hello@appgain.io" role="button"><i class="fa fa-envelope"></i></a>
-                 <a class="btn googleBtn" href="https://plus.google.com/share?url=http://appgain.io" role="button"><i class="fa fa-google-plus"></i></a>
-                 <a class="btn whatsappBtn" href="whatsapp://send?text=AppGain!" data-action="share/whatsapp/share" role="button"><i class="fa fa-whatsapp"></i></a>
-               </div>
+               <a id="btnDonate10" target="_blank" class="btn btn-default btn-block" href="#" role="button">Donate 10 AED</a>
+               <a id="btnDonate20" target="_blank" class="btn btn-default btn-block" href="#" role="button">Donate 20 AED</a>
              </div>
            </div>
+        </div>
+        <div class="btn-group btn-group-justified shareButtons" role="group">
+          <a class="btn facebookBtn" href="https://www.facebook.com/sharer/sharer.php?u=http://appgain.io" role="button"><i class="fa fa-facebook"></i></a>
+          <a class="btn twitterBtn" href="https://twitter.com/home?status=http://appgain.io" role="button"><i class="fa fa-twitter"></i></a>
+          <a class="btn emailBtn" href="mailto:hello@appgain.io" role="button"><i class="fa fa-envelope"></i></a>
+          <a class="btn googleBtn" href="https://plus.google.com/share?url=http://appgain.io" role="button"><i class="fa fa-google-plus"></i></a>
+          <a class="btn whatsappBtn" href="whatsapp://send?text=AppGain!" data-action="share/whatsapp/share" role="button"><i class="fa fa-whatsapp"></i></a>
         </div>
 
         <script src="https://faisalman.github.io/ua-parser-js/src/ua-parser.js"></script>
         <script>
-          var android = "Mozilla/5.0 (Linux; U; Android-4.0.3; en-us; Galaxy Nexus Build/IML74K) AppleWebKit/535.7 (KHTML, like Gecko) CrMo/16.0.912.75 Mobile Safari/535.7";
-          var ios = "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1_1 like Mac OS X; en) AppleWebKit/534.46.0 (KHTML, like Gecko) CriOS/19.0.1084.60 Mobile/9B206 Safari/7534.48.3";
           (function(document, parser) {
             'use strict';
 
@@ -118,8 +137,10 @@
                 btnDonate20.href = 'sms:2222&body=test2';
                 break;
               default:
-                btnDonate10.target = '';
-                btnDonate20.target = '';
+                document
+                  .getElementById('btnDonate10')
+                  .parentNode
+                  .innerHTML = '<p>Send SMS to 2169</p><p>Send SMS to 2222</p>';
                 break;
             }
 
