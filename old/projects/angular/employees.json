@@ -1,0 +1,44 @@
+{
+	"employees": [
+		{
+			"name": "Ahmed",
+			"score": 23,
+			"image": "img/ahmed.jpg"
+		},
+		{
+			"name": "Mohamed",
+			"score": 24,
+			"image": "img/mohamed.jpg"
+		},
+		{
+			"name": "Mahmoud",
+			"score": 70,
+			"image": "img/mahmoud.jpg"
+		},
+		{
+			"name": "Shams El Zanaty",
+			"score": 60,
+			"image": "img/shams-el-zanaty.jpg"
+		},
+		{
+			"name": "Ahmed1",
+			"score": 24,
+			"image": "img/ahmed.jpg"
+		},
+		{
+			"name": "Mohamed2",
+			"score": 55,
+			"image": "img/mohamed.jpg"
+		},
+		{
+			"name": "Mahmoud2",
+			"score": 60,
+			"image": "img/mahmoud.jpg"
+		},
+		{
+			"name": "Shams El Zanaty",
+			"score": 60,
+			"image": "img/shams-el-zanaty.jpg"
+		}
+	]
+}
